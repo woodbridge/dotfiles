@@ -3,6 +3,10 @@ alias r='git reset'
 alias d='git diff'
 alias gdc='git diff --cached'
 
+HISTCONTROL=ignoreboth
+HISTFILESIZE=100000
+HISTSIZE=100000
+
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
