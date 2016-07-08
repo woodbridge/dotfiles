@@ -3,9 +3,16 @@ alias r='git reset'
 alias d='git diff'
 alias gdc='git diff --cached'
 
+alias migrate='rake db:migrate'
+alias rc='heroku run rails c --app rafflecreator'
+
+alias jn='jupyter notebook'
+
 HISTCONTROL=ignoreboth
 HISTFILESIZE=100000
 HISTSIZE=100000
+
+export PATH="./bin:$PATH"
 
 # get current branch in git repo
 function parse_git_branch() {
