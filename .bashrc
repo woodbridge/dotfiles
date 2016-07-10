@@ -3,6 +3,8 @@ alias r='git reset'
 alias d='git diff'
 alias gdc='git diff --cached'
 
+alias grh='git reset HEAD --hard'
+
 alias migrate='rake db:migrate'
 alias rc='heroku run rails c --app rafflecreator'
 
