@@ -2,11 +2,14 @@ alias s='git status'
 alias r='git reset'
 alias d='git diff'
 alias gdc='git diff --cached'
-
 alias grh='git reset HEAD --hard'
 
+alias c='rails c'
 alias migrate='rake db:migrate'
+alias fs='foreman start'
+
 alias rc='heroku run rails c --app rafflecreator'
+alias rl='heroku logs --tail --app rafflecreator'
 
 alias jn='jupyter notebook'
 

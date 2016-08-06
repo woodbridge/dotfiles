@@ -21,3 +21,8 @@
 	added = yellow
 	changed = green bold
 	untracked = blue bold
+[core]
+	excludesfile = /Users/justin/.gitignore
+[push]
+	defalt = matching
+	default = simple
